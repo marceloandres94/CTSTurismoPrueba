@@ -18,17 +18,3 @@ Este proyecto es una aplicación web completa que permite a los usuarios registr
 3. **Redis**: Necesario para manejar las tareas asíncronas con Celery.
 
 ---
-
-## Instalación
-
-### 1. Clonar el repositorio
-
-```bash
-git clone https://github.com/tu-usuario/tu-repositorio.git
-cd tu-repositorio
-
-para hacer un superusuario y que esta pueda ingresar al panel de admin realizarlo por medio de este comando :
-
-python manage.py createsuperuser
-
-ya que los usuarios que solo se registran no tienen acceso al panel de ADMIN
